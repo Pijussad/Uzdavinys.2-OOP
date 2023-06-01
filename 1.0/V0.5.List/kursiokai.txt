@@ -1,0 +1,9 @@
+Pavardė     Vardas      ND1       ND2       ND3       ND4       ND5     Egzaminas
+A           B           10      10      2      9       4       2
+K           G           1       2       2       9       4       2
+A           f           10      10      2      9       4       2
+K           l           1       2       2       9       4       2
+A           B           10      10      2      9       4       2
+K           q           1       2       2       9       4       2
+A           B           10      10      2      9       4       2
+K           z           1       2       2       9       4       2
