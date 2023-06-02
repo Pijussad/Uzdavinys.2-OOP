@@ -363,8 +363,7 @@ Verta paminėti, kad visos trys operacijos susijusios su elementų rūšiavimu. 
 
 Funkcijos:
 Įdiegti būtini operatoriai klasėje Studentas, kad pagerėtų programos našumas ir patogumas
-Įdiegti tokie operatoriai, kaip <<, skirtas studentų duomenims išvesti į std::ostream (pvz., std::cout), ir >>, skirtas studentų duomenims įvesti iš std::istream (pvz., std::cin).
-Įdiegti kitus tinkamus operatorius, atsižvelgiant į būsimų klasės Studentas naudotojų reikalavimus ir poreikius.
+Įdiegti tinkamus operatorius, atsižvelgiant į būsimų klasės Studentas naudotojų reikalavimus ir poreikius.
 Užtikrinkite, kad būtų tinkamai įgyvendinta penkių taisyklių taisyklė, įskaitant kopijavimo konstruktorių, perkėlimo konstruktorių, kopijavimo priskyrimo operatorių, perkėlimo priskyrimo operatorių ir destruktorių
 
 ### 1.5 versija
@@ -389,11 +388,11 @@ Parengė instrukcijų vadovą, kuriame pateikti pagrindiniai README.md faile apr
 
 
 Failų paaiškinimas:
-•	mylib.h: antraštės failas, kuriame yra funkcijų deklaracijos ir duomenų struktūros
-•	makefile: paleidimo failas
-•	mylib.cpp: šaltinio failas su programos įgyvendinimu
-•	kursiokai.txt: Duomenų failo pavyzdys
-•	README.md: Readme failas, kuriame yra informacija apie programą ir jos versijas
+•	`mylib.h`: antraštės failas, kuriame yra funkcijų deklaracijos ir duomenų struktūros
+•	`makefile`: paleidimo failas
+•	`mylib.cpp`: šaltinio failas su programos įgyvendinimu
+•	`kursiokai.txt`: Duomenų failo pavyzdys
+•	`README.md`: Readme failas, kuriame yra informacija apie programą ir jos versijas
 
 Naudojimas:
 1.	Sukompiliuokite programą naudodami pageidaujamą kompiliatorių.
@@ -406,7 +405,7 @@ Programa buvo išbandyta naudojant įvairius įrašų dydžius ir konteinerių t
 
 Diegimas nuo:
 Norėdami įdiegti ir paleisti programą, atlikite šiuos veiksmus:
-1.	Atsisiųskite failą 'studentai.pkg'.
+1.	Atsisiųskite failą `studentai.pkg'.
 2.	Failą atidarius turėtų pasirodyti instaliacijos langas, toliau sekite nurodomų komandų.
 
 
