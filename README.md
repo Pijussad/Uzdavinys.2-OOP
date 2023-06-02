@@ -4,7 +4,7 @@ Galutinis balas skaičiuojamas pagal formulę `(0.4 * namų darbų vidurkis + 0.
 
 Ši programa leidžia vartotojams įvesti mokinių duomenis ir apskaičiuoti galutinius pažymius naudojant vidurkį arba medianą. Pažymių ir mokinių skaičius neribojamas, o programa palaiko du pažymių saugojimo būdus: C masyvus ir std::vector.
 
-0.1 versija
+### 0.1 versija
 Funkcijos:
 •	Įvesti mokinio vardą ir pavardę
 •	Įvesti mokinio namų darbus ir egzamino pažymius
@@ -12,18 +12,18 @@ Funkcijos:
 •	Apskaičiuokite galutinį balą naudodami vidurkio formulę (0,4 * vidutinis namų darbų įvertinimas + 0,6 * egzamino pažymys)
 •	Rodyti galutinius balus ekrane
 
-0.2 versija
+### 0.2 versija
 Funkcijos:
 •	Leisti nuskaityti duomenis iš failo (kursiokai.txt)
 •	Išvestyje rūšiuokite mokinius pagal vardą (pirmą arba paskutinį).
 
-0.3 versija
+### 0.3 versija
 Funkcijos:
 •	Kur reikia naudojamos struktūros
 •	Perkeltos funkcijos ir duomenų tipai į atskirus antraščių failus (*.h)
 •	Klaidų atvejais naudojamas išimčių tvarkymas
 
-0.4 versija
+### 0.4 versija
 Funkcijos:
 •	Sukurtas failų generatorius, kad generuotų atsitiktinius studentų sąrašo failus
 •	Generuoti skirtingų įrašų dydžių failus: 1000; 10 000; 100 000; 1 000 000; 10 000 000
@@ -31,7 +31,7 @@ Funkcijos:
 •	Duomenys išvedami suskirsčius mokinius į du naujus failus
 •	Atlikta įvairių programos žingsnių greičio analizė
 
-0.5 versija
+### 0.5 versija
 Konteinerių testavimas
 Išmatuotas programos našumas naudojant tris skirtingus konteinerių tipus:
 •	std::vektorius
@@ -145,7 +145,7 @@ Visas laikas - 3.90218
 1000000 elementų rūšiavimas ir išvedimas užtruko: 26.7792 s
 Visas laikas - 44.2913
 
-1.0 versija
+### 1.0 versija
 Optimizavimas
 Remiantis skirtingomis strategijomis, optimizuotas mokinių rūšiavimas ir padalijimas į dvi kategorijas („vargšiukus“ ir „šaunuolius“):
 •	1 strategija: bendro mokinio konteinerio padalijimas į du naujus to paties tipo konteinerius
@@ -288,7 +288,7 @@ Nuskaitymo laikai visose realizacijose išlieka gana pastovūs esant skirtingiem
 
 Apskritai geriausiai iš testuotų realizacijų veikia realizacija "V1.0.Vector be vektoriaus "Šaunuoliai" optimizavimo", po jos seka realizacijos "V1.0.Vector" ir "V1.0.List" "V1.0.Deque" ir realizacijos "be vektoriaus 'Šaunuoliai'" realizacijos pasižymi lėtesniu našumu, palyginti su jomis.
 
-1.1 versija
+### 1.1 versija
 
 Funkcijos
 Pertvarkyta programa, kad mokinių duomenų saugojimui būtų naudojama klasė, o ne struktūra
@@ -362,16 +362,31 @@ Verta paminėti, kad visos trys operacijos susijusios su elementų rūšiavimu. 
 1.2 versija
 
 Funkcijos:
-Įdiegti būtinus operatorius klasėje Studentas, kad pagerėtų programos našumas ir patogumas
-Įdiegti tokius operatorius, kaip <<, skirtas studentų duomenims išvesti į std::ostream (pvz., std::cout), ir >>, skirtas studentų duomenims įvesti iš std::istream (pvz., std::cin).
+Įdiegti būtini operatoriai klasėje Studentas, kad pagerėtų programos našumas ir patogumas
+Įdiegti tokie operatoriai, kaip <<, skirtas studentų duomenims išvesti į std::ostream (pvz., std::cout), ir >>, skirtas studentų duomenims įvesti iš std::istream (pvz., std::cin).
 Įdiegti kitus tinkamus operatorius, atsižvelgiant į būsimų klasės Studentas naudotojų reikalavimus ir poreikius.
 Užtikrinkite, kad būtų tinkamai įgyvendinta penkių taisyklių taisyklė, įskaitant kopijavimo konstruktorių, perkėlimo konstruktorių, kopijavimo priskyrimo operatorių, perkėlimo priskyrimo operatorių ir destruktorių
 
-1.5 versija
+### 1.5 versija
 
-Funkcijos:
-Sukurti bazinę klasę Žmogus, kad būtų galima apibūdinti žmogų apskritai
-Padaryti klasę Human abstrakčia klase (negalima kurti objektų iš
+Funkcijos
+Sukurta bazinė klasė Žmogus, skirta apibūdinti žmogų apskritai
+Klasė Human tapo abstrakčia klase (negalima kurti tipo Human objektų, tik išvestinius objektus)
+Sukurta išvestinė klasė Student iš klasės Human, skirta studentui apibūdinti
+Įdiegtos būtinos klasės Student narių funkcijos ir duomenų nariai
+
+### 2.0 versija
+
+Dokumentacija ir bandymai
+Naudojant "Doxygen 1.5" sukurta dokumentacija, skirta projektui ir jo sudedamosioms dalims aprašyti.
+Įkelta dokumentacija (kaip atskiras "doxygen" katalogas) į saugyklą
+Įgyvendinti vienetų testai naudojant pageidaujamą C++ vienetų testavimo sistemą, kad būtų patikrintas programos funkcijų teisingumas
+Sukurtas automatinis diegimo failas studentai.pkg
+Sutvarkė saugyklą taip, kad joje būtų tik reikalingi šaltinio failai, pašalino visus su IDE susijusius failus
+Įtraukė README.md failą, kuriame būtų aprašytos visos versijos, perdavimai ir rezultatų komentarai
+Parengė instrukcijų vadovą, kuriame pateikti pagrindiniai README.md faile aprašyti veiksmai
+Į README.md failą įtrauktos diegimo instrukcijos
+
 
 Failų paaiškinimas:
 •	mylib.h: antraštės failas, kuriame yra funkcijų deklaracijos ir duomenų struktūros
@@ -379,7 +394,6 @@ Failų paaiškinimas:
 •	mylib.cpp: šaltinio failas su programos įgyvendinimu
 •	kursiokai.txt: Duomenų failo pavyzdys
 •	README.md: Readme failas, kuriame yra informacija apie programą ir jos versijas
-
 
 Naudojimas:
 1.	Sukompiliuokite programą naudodami pageidaujamą kompiliatorių.
