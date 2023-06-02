@@ -367,6 +367,12 @@ Funkcijos:
 Įdiegti kitus tinkamus operatorius, atsižvelgiant į būsimų klasės Studentas naudotojų reikalavimus ir poreikius.
 Užtikrinkite, kad būtų tinkamai įgyvendinta penkių taisyklių taisyklė, įskaitant kopijavimo konstruktorių, perkėlimo konstruktorių, kopijavimo priskyrimo operatorių, perkėlimo priskyrimo operatorių ir destruktorių
 
+1.5 versija
+
+Funkcijos:
+Sukurti bazinę klasę Žmogus, kad būtų galima apibūdinti žmogų apskritai
+Padaryti klasę Human abstrakčia klase (negalima kurti objektų iš
+
 Failų paaiškinimas:
 •	mylib.h: antraštės failas, kuriame yra funkcijų deklaracijos ir duomenų struktūros
 •	makefile: paleidimo failas
