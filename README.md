@@ -404,18 +404,9 @@ Testavimas
 Programa buvo išbandyta naudojant įvairius įrašų dydžius ir konteinerių tipus, kad būtų užtikrintas jos veikimas ir funkcionalumas. Testavimo parametrai apima procesoriaus, RAM ir HDD specifikacijas.
 
 
-Diegimas :
-Prieš paleisdami kodą įsitikinkite, kad jūsų sistemoje yra įdiegtas C++ kompiliatorius.
-Diegimas iki V1.0:
+Diegimas nuo:
 Norėdami įdiegti ir paleisti programą, atlikite šiuos veiksmus:
-1.	Klonuoti saugyklą: git klonas https://github.com/Pijussad/1-uzdavinys.git
-2.	Sukompiliuokite šaltinio failus: g++ -std=c++11 -o program main.cpp mylib.cp
-3.	Paleiskite programą: ./program
-
-Diegimas nuo V1.0:
-Norėdami įdiegti ir paleisti programą, atlikite šiuos veiksmus:
-1.	Klonuoti saugyklą: git klonas https://github.com/Pijussad/1-uzdavinys.git
-2.	Pasirinkite atitinkamą versiją ir sukompiliuokite šaltinio failus: make
-3.	Paleiskite programą: ./program
+1.	Atsisiųskite failą 'studentai.pkg'.
+2.	Failą atidarius turėtų pasirodyti instaliacijos langas, toliau sekite nurodomų komandų.
 
 
