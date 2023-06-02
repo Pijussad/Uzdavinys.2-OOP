@@ -359,6 +359,14 @@ Bendras našumas: O1 nuolat lenkia O2 ir O3 pagal bendrą laiką, reikalingą el
 Verta paminėti, kad visos trys operacijos susijusios su elementų rūšiavimu. Palyginti su O2 ir O3, O1 rūšiavimas nuolat užima daugiau laiko. Tai rodo, kad O1 rūšiavimo algoritmas gali būti mažiau efektyvus nei O2 ir O3 naudojami algoritmai.
 
 
+1.2 versija
+
+Funkcijos:
+Įdiegti būtinus operatorius klasėje Studentas, kad pagerėtų programos našumas ir patogumas
+Įdiegti tokius operatorius, kaip <<, skirtas studentų duomenims išvesti į std::ostream (pvz., std::cout), ir >>, skirtas studentų duomenims įvesti iš std::istream (pvz., std::cin).
+Įdiegti kitus tinkamus operatorius, atsižvelgiant į būsimų klasės Studentas naudotojų reikalavimus ir poreikius.
+Užtikrinkite, kad būtų tinkamai įgyvendinta penkių taisyklių taisyklė, įskaitant kopijavimo konstruktorių, perkėlimo konstruktorių, kopijavimo priskyrimo operatorių, perkėlimo priskyrimo operatorių ir destruktorių
+
 Failų paaiškinimas:
 •	mylib.h: antraštės failas, kuriame yra funkcijų deklaracijos ir duomenų struktūros
 •	makefile: paleidimo failas
